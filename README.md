@@ -44,31 +44,32 @@ Baaz Logistics Platform is a cutting-edge logistics website offering global logi
 
 ## Project Structure
 
-baaz-logistics-platform/
-├── node_modules/          # Dependencies
-├── public/                # Static assets (images, icons, etc.)
-├── src/                   # Application source code
-│   ├── components/        # components
-│   ├── App.tsx            # App
-│   ├── index.css          # index
-│   └── main.tsx           # main
-├── .gitignore             # Files to ignore in Git
-├── eslint.config          # ESLint configuration
-├── index.html             # Entry HTML file
-├── manifest.json          # Web app manifest
-├── package.json           # Project metadata and scripts
-├── package-lock.json      # Lock file for dependencies
-├── postcss.config.js      # PostCSS configuration
-├── README.md              # Project documentation
-├── tailwind.config.js     # TailwindCSS configuration
-├── tsconfig.app.json      # TypeScript configuration for app
-├── tsconfig.json          # Base TypeScript configuration
-├── tsconfig.node.json     # TypeScript configuration for Node
-└── vite.config.js         # Vite configuration
+      ```bash
+      baaz-logistics-platform/
+      ├── node_modules/          # Dependencies
+      ├── public/                # Static assets (images, icons, etc.)
+      ├── src/                   # Application source code
+      │   ├── components/        # components
+      │   ├── App.tsx            # App
+      │   ├── index.css          # index
+      │   └── main.tsx           # main
+      ├── .gitignore             # Files to ignore in Git
+      ├── eslint.config          # ESLint configuration
+      ├── index.html             # Entry HTML file
+      ├── manifest.json          # Web app manifest
+      ├── package.json           # Project metadata and scripts
+      ├── package-lock.json      # Lock file for dependencies
+      ├── postcss.config.js      # PostCSS configuration
+      ├── README.md              # Project documentation
+      ├── tailwind.config.js     # TailwindCSS configuration
+      ├── tsconfig.app.json      # TypeScript configuration for app
+      ├── tsconfig.json          # Base TypeScript configuration
+      ├── tsconfig.node.json     # TypeScript configuration for Node
+      └── vite.config.js         # Vite configuration
+      
 
 
 ## Available Scripts
-
 
    **npm run dev** - Starts the development server.
    
@@ -80,6 +81,7 @@ baaz-logistics-platform/
 
 
 ## Deployment
+
 The project is ready for deployment to platforms like Vercel or Netlify. Follow these steps:
 
 1. Build the project:
@@ -92,15 +94,20 @@ Contributions are welcome! Follow these steps:
 
 1. Fork the repository.
 2. Create a new branch:
-git checkout -b feature/feature
-3. Commit your changes:
-git commit -m "Add your feature"
-4. Push your branch:
-git push origin feature/feature
-5. Open a pull request.
+   ```bash
+   git checkout -b feature/feature
+4. Commit your changes:
+   ```bash
+   git commit -m "Add your feature"
+6. Push your branch:
+   ```bash
+   git push origin feature/feature
+8. Open a pull request.
   
 For feedback or inquiries, feel free to contact us.
 
+
 ### Notes:
+
 1. Update the `public/logo.png` path with the actual screenshot's path in your repository.
 2. Adjust any specifics based on your implementation (e.g., additional folders or scripts).
