@@ -3,7 +3,7 @@
 Baaz Logistics Platform is a cutting-edge logistics website offering global logistics solutions. Designed for efficiency and scalability, it leverages **Remix**, **TypeScript**, and **TailwindCSS** for a seamless user experience.
 
 
-<video controls src="baz.mp4" title="Baaz Logistics"></video>
+
 
 ![alt text](baz1.png)
 
@@ -31,13 +31,18 @@ Baaz Logistics Platform is a cutting-edge logistics website offering global logi
 
 
 2. Install dependencies:
-npm install
+   ```bash
+   npm install
 
-3. Run the development server:
-npm run dev
 
-4. Open your browser and visit:
-http://localhost:3000
+4. Run the development server:
+   ```bash
+   npm run dev
+
+
+6. Open your browser and visit:
+   ```bash
+   http://localhost:3000
 
 ## Project Structure
 
@@ -64,20 +69,22 @@ baaz-logistics-platform/
 └── vite.config.js         # Vite configuration
 
 
-# Available Scripts
-npm run dev - Starts the development server.
-npm run build - Builds the project for production.
-npm run preview - Previews the production build locally.
-npm run lint - Runs ESLint for code quality checks.
+## Available Scripts
+   -**npm run dev** - Starts the development server.
+   -**npm run build** - Builds the project for production.
+   -**npm run preview** - Previews the production build locally.
+   -**npm run lint** - Runs ESLint for code quality checks.
 
-# Deployment
+
+## Deployment
 The project is ready for deployment to platforms like Vercel or Netlify. Follow these steps:
 
 1. Build the project:
-npm run build
-2. Deploy the dist/ folder to your preferred platform.
+   ```bash
+   npm run build
+3. Deploy the dist/ folder to your preferred platform.
 
-# Contributing
+## Contributing
 Contributions are welcome! Follow these steps:
 
 1. Fork the repository.
@@ -88,11 +95,9 @@ git commit -m "Add your feature"
 4. Push your branch:
 git push origin feature/feature
 5. Open a pull request.
+  
 For feedback or inquiries, feel free to contact us.
-
 
 ### Notes:
 1. Update the `public/logo.png` path with the actual screenshot's path in your repository.
 2. Adjust any specifics based on your implementation (e.g., additional folders or scripts).
-
-Let me know if you need further refinements!
