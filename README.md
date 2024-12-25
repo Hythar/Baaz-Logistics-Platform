@@ -1,6 +1,6 @@
 # Baaz Logistics Platform
 
-Baaz Logistics Platform is a cutting-edge logistics website offering global logistics solutions. Designed for efficiency and scalability, it leverages **Remix**, **TypeScript**, and **TailwindCSS** for a seamless user experience.
+is a logistics website offering global logistics solutions. it leverages **Remix**, **TypeScript**, and **TailwindCSS** for a seamless user experience.
 
 
 
