@@ -34,11 +34,9 @@ Baaz Logistics Platform is a cutting-edge logistics website offering global logi
    ```bash
    npm install
 
-
 4. Run the development server:
    ```bash
    npm run dev
-
 
 6. Open your browser and visit:
    ```bash
@@ -70,10 +68,15 @@ baaz-logistics-platform/
 
 
 ## Available Scripts
-   -**npm run dev** - Starts the development server.
-   -**npm run build** - Builds the project for production.
-   -**npm run preview** - Previews the production build locally.
-   -**npm run lint** - Runs ESLint for code quality checks.
+
+
+   **npm run dev** - Starts the development server.
+   
+   **npm run build** - Builds the project for production.
+   
+   **npm run preview** - Previews the production build locally.
+   
+   **npm run lint** - Runs ESLint for code quality checks.
 
 
 ## Deployment
